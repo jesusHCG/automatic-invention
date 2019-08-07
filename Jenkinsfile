@@ -1,21 +1,5 @@
-pipeline {
-    agent any
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
-}
+#!/usr/bin/env groovy
+
+@Library('PSL@master')
+@Library('CILibrary@CBP/DynamoPerfTest') _
