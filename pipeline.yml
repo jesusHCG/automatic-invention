@@ -1,6 +1,6 @@
 version: 0.1.1
 env:
-  - TIMEOUT: 1
+  - TIMEOUT: 50
 
 check_changelog_updated_on_pr: false
 pipeline_os: "Windows"
