@@ -8,11 +8,11 @@ pipeline_os: "Windows"
 job_parameters:
     -
       name: "mi primer parametro"
-      defaultValue: 1
+      defaultValue: "1"
       description: "Mi primera descripcion"
     -
       name: "mi segundo parametro"
-      defaultValue: 2
+      defaultValue: "2"
       description: "Mi segunda descripcion"
 
 build:
