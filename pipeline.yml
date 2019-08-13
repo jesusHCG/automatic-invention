@@ -12,7 +12,7 @@ job_parameters:
       description: "Mi primera descripcion"
     -
       name: "Repo"
-      defaultValue: "2"
+      defaultValue: ""
       description: "Mi segunda descripcion"
 
 build:
