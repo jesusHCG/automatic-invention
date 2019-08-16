@@ -7,13 +7,13 @@ pipeline_os: "Windows"
 
 job_parameters:
     -
-      name: "Branch"
+      name: "ENVIRONMENT_BRANCH"
       defaultValue: ""
-      description: "Mi primera descripcion"
+      description: ""
     -
-      name: "Repo"
+      name: "ENVIRONMENT_REPO"
       defaultValue: ""
-      description: "Mi segunda descripcion"
+      description: ""
 
 build:
   before_scripts:
