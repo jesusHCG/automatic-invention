@@ -17,4 +17,4 @@ job_parameters:
 
 build:
   before_scripts:
-    - "powershell.exe -ExecutionPolicy ByPass -File .\\DockerUtilities\\PreBuild.ps1"
+    - "powershell.exe -ExecutionPolicy ByPass -File .\\DockerUtilities\\SecondPreBuild.ps1"
