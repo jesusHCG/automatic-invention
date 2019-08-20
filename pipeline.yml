@@ -20,9 +20,8 @@ job_parameters:
       type: "choice"
       name: "ENVIRONMENT_URL_REPO"
       choices: 
-        - "git.autodesk"
-        - "github"
-        - "gitBUCKET"
+        - "git.autodesk.com"
+        - "github.com"
       description: ""
 
 build:
