@@ -11,18 +11,7 @@ job_parameters:
       name: "ENVIRONMENT_BRANCH"
       defaultValue: ""
       description: ""
-    -
-      type: "string"
-      name: "ENVIRONMENT_REPO"
-      defaultValue: ""
-      description: ""
-    -
-      type: "choice"
-      name: "ENVIRONMENT_URL_REPO"
-      choices: 
-        - "git.autodesk.com"
-        - "github.com"
-      description: ""
+    
 
 build:
   before_scripts:
