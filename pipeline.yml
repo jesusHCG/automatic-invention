@@ -22,6 +22,7 @@ job_parameters:
       choices: 
         - "git.autodesk"
         - "github"
+        - "gitBUCKET"
       description: ""
 
 build:
