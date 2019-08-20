@@ -7,12 +7,21 @@ pipeline_os: "Windows"
 
 job_parameters:
     -
+      type: "string"
       name: "ENVIRONMENT_BRANCH"
       defaultValue: ""
       description: ""
     -
+      type: "string"
       name: "ENVIRONMENT_REPO"
       defaultValue: ""
+      description: ""
+    -
+      type: "choice"
+      name: "ENVIRONMENT_URL_REPO"
+      choices: 
+        - "github"
+        - "git.autodesk"
       description: ""
 
 build:
