@@ -6,7 +6,11 @@ check_changelog_updated_on_pr: false
 pipeline_os: "Windows"
 
 job_parameters:
-
+    -
+      type: "string"
+      name: "ENVIRONMENT_BRANCH"
+      defaultValue: ""
+      description: ""
     -
       type: "string"
       name: "ENVIRONMENT_REPO"
