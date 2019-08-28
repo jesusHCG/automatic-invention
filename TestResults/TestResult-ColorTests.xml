@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Jenkins\workspace\Dynamo\Dynamo\DYN-1822@2\bin\AnyCPU\Release\DSCoreNodesTests.dll" total="13" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-08-28" time="17:27:23">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit.org\nunit-console" machine-name="ECS-145076C1" user="t_hernjes" user-domain="ADS" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Jenkins\workspace\Dynamo\Dynamo\DYN-1822@2\bin\AnyCPU\Release\DSCoreNodesTests.dll" executed="True" result="Success" success="True" time="1.544" asserts="0">
+    <properties>
+      <property name="_PID" value="1292" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="SetUpFixture" name="DSCoreNodesTests" executed="True" result="Success" success="True" time="1.512" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ColorTests" executed="True" result="Success" success="True" time="1.496" asserts="0">
+            <results>
+              <test-case name="DSCoreNodesTests.ColorTests.TestAddColor" executed="True" result="Success" success="True" time="1.157" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestBlerp1" executed="True" result="Success" success="True" time="0.026" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestBlerp3" executed="True" result="Success" success="True" time="0.012" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestBrightness" executed="True" result="Success" success="True" time="0.018" asserts="1">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestBuildColorFrom1DRange" executed="True" result="Success" success="True" time="0.043" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestBuildColorFrom2DRange" executed="True" result="Success" success="True" time="0.035" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestComponents" executed="True" result="Success" success="True" time="0.030" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestConstructorByARGB" executed="True" result="Success" success="True" time="0.013" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestDivideColor" executed="True" result="Success" success="True" time="0.009" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestDivideColorByZero" executed="True" result="Success" success="True" time="0.015" asserts="1">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestHue" executed="True" result="Success" success="True" time="0.011" asserts="1">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestMultiplyColor" executed="True" result="Success" success="True" time="0.013" asserts="4">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+              <test-case name="DSCoreNodesTests.ColorTests.TestSaturation" executed="True" result="Success" success="True" time="0.011" asserts="1">
+                <properties>
+                  <property name="_CATEGORIES" value="UnitTests" />
+                </properties>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

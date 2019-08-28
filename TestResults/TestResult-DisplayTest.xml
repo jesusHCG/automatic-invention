@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Jenkins\workspace\Dynamo\Dynamo\DYN-1822@2\bin\AnyCPU\Release\DisplayTests.dll" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2019-08-28" time="17:27:23">
+  <environment nunit-version="3.6.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit.org\nunit-console" machine-name="ECS-145076C1" user="t_hernjes" user-domain="ADS" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Jenkins\workspace\Dynamo\Dynamo\DYN-1822@2\bin\AnyCPU\Release\DisplayTests.dll" executed="True" result="Success" success="True" time="9.368" asserts="0">
+    <properties>
+      <property name="_PID" value="2072" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <results>
+      <test-suite type="Namespace" name="DisplayTests" executed="True" result="Success" success="True" time="9.341" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="DisplayTest" executed="True" result="Success" success="True" time="9.337" asserts="0">
+            <results>
+              <test-case name="DisplayTests.DisplayTest.RegressMagn9666_DisplayCrash" executed="True" result="Success" success="True" time="9.316" asserts="13" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
