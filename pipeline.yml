@@ -1,9 +1,30 @@
 version: 0.1.1
 env:
   - TIMEOUT: 30
+  - TEST_REPORT_FORMAT : "nunit"
 
 check_changelog_updated_on_pr: false
 pipeline_os: "Windows"
+
+job_parameters:
+    -
+      type: "string"
+      name: "ENVIRONMENT_BRANCH"
+      defaultValue: ""
+      description: ""
+    -
+      type: "string"
+      name: "ENVIRONMENT_REPO"
+      defaultValue: ""
+      description: ""
+    -
+      type: "choice"
+      name: "ENVIRONMENT_URL_REPO"
+      choices: 
+        - ""
+        - "git.autodesk.com"
+        - "github.com"
+      description: ""
 
 build:
   before_scripts:
