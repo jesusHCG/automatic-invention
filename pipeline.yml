@@ -25,6 +25,14 @@ job_parameters:
         - "git.autodesk.com"
         - "github.com"
       description: ""
+    -
+      type: "checkBox"
+      name: "ENVIRONMENT_OPTION"
+      choices: 
+        - "en"
+        - "de"
+        - "ja"
+      description: "Multi-select"
 
 build:
   before_scripts:
