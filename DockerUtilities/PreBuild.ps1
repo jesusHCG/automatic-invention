@@ -1,7 +1,1 @@
-" -=-=- PrebuilsScript JenkinsFile -=-=- "
-
-
-$env:ENVIRONMENT_LANGUAGE
-
-
-Write-Output "hola $env:ENVIRONMENT_LANGUAGE"
+" -=-=- PrebuilsScript < $env:ENVIRONMENT_LANGUAGE > JenkinsFile -=-=- "
