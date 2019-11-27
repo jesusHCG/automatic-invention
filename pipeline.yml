@@ -27,11 +27,12 @@ job_parameters:
       description: ""
     -
       type: "choice"
-      name: "ENVIRONMENT_LANGUAJE"
+      name: "ENVIRONMENT_LANGUAGE"
       choices: 
         - "en"
-        - "ja"
         - "de"
+        - "ja"
+        - "zh-tw"
       description: ""
 
 build:
