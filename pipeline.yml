@@ -26,13 +26,13 @@ job_parameters:
         - "github.com"
       description: ""
     -
-      type: "checkBox"
-      name: "ENVIRONMENT_OPTION"
+      type: "choice"
+      name: "ENVIRONMENT_LANGUAJE"
       choices: 
         - "en"
-        - "de"
         - "ja"
-      description: "Multi-select"
+        - "de"
+      description: ""
 
 build:
   before_scripts:
