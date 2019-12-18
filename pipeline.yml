@@ -1,5 +1,6 @@
 version: 0.1.1
 env:
+  - JENKINS_NODE_WIN: "Dynamo_Win_004"
   - TIMEOUT: 30
   - TEST_REPORT_FORMAT : "nunit"
 
