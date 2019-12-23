@@ -40,6 +40,8 @@ build:
   -
     before_scripts:
       - "powershell.exe -ExecutionPolicy ByPass -File .\\DockerUtilities\\PreBuild.ps1"
+    scripts:
+      - "powershell.exe -ExecutionPolicy ByPass -File .\\DockerUtilities\\PreBuild.ps1"
 
 ci_test:
   before_scripts:
