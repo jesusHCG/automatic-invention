@@ -51,6 +51,5 @@ ci_test:
   
   test_report_dir: TestResults
   test_report_pattern:
-    -
-      format: "nunit"
-      pattern: "*.xml"
+    format: "nunit"
+    pattern: "*.xml"
