@@ -48,3 +48,7 @@ ci_test:
     - "powershell.exe -ExecutionPolicy ByPass -File .\\DockerUtilities\\PreBuild.ps1"
   
   test_report_dir: TestResults
+  test_report_pattern:
+    -
+      format: "nunit"
+      pattern: "*.xml"
