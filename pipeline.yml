@@ -7,6 +7,17 @@ env:
 check_changelog_updated_on_pr: false
 pipeline_os: "Windows"
 
+jenkins_creds:
+  - 
+    type: secretText
+    credentialsId: NUGET_API_KEY
+    secretText: ENV_NUGET_API_KEY
+  - 
+    type: usernamePassword
+    credentialsId: NUGET_CREDENTIAL
+    username: ENV_NUGET_USERNAME 
+    password: ENV_NUGET_PASSWORD
+
 job_parameters:
     -
       type: "string"
