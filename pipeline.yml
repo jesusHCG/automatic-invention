@@ -46,6 +46,13 @@ job_parameters:
         - "ja"
         - "zh-tw"
       description: ""
+    -
+      type: "extendedChoice"
+      name: "ENVIRONMENT_EXTENDED_CHOICE"
+      value: "en,de,ja,zh-tw"
+      defaultValue: "en"
+      delimiter: ","
+      description: ""
 
 build:
   -
