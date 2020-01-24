@@ -48,7 +48,7 @@ job_parameters:
       description: ""
     -
       type: "extendedChoice"
-      name: "ENVIRONMENT_EXTENDED_CHOICE"
+      name: "LANGUAGE_CHOICES"
       value: "en,de,ja,zh-tw"
       defaultValue: "en,de,ja,zh-tw"
       delimiter: ","
