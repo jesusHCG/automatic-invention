@@ -11,3 +11,7 @@ Write-Host "ADS_USER_NAME: $env:ADS_USER_PASSWORD"
 Write-Host "ADS_USER_PASSWORD: $env:ADS_USER_PASSWORD"
 
 Write-Host "LANGUAGE_CHOICES: $env:LANGUAGE_CHOICES"
+
+$command =  ".\executePS.ps1" + " -a $env:LANGUAGE_CHOICES"
+write-host $command
+Invoke-Expression $command
